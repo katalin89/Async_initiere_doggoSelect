@@ -1,0 +1,84 @@
+body{
+
+background-color: rgb(249, 246, 246);
+    
+}
+
+header{
+    background-color: pink;
+    margin-bottom:200px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 200px;
+
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+main{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+select{
+    display: flex;
+   
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    border: 10px solid white;
+    
+   
+  }
+
+  
+  
+  footer{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .more{
+
+    margin-top: 10px;
+    width:400px;
+  }
+
+  .bone{
+    background-image:url(../images/bone.webp) ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+
+  }
+.background-image{
+  background-image: url(../images/bone.webp) !important;
+height: 40px;
+}
+
+.centered {
+    color:black;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
